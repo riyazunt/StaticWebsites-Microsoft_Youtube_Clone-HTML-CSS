@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>YouTube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+  </head>
+
+
+  <body>
+    <header class="header">
+
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <a href="https://www.youtube.com/" target="_blank">
+          <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </a>  
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="mic-button">
+          <img class="mic-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button> 
+      </div>
+
+      <div class="right-section">
+        <img class="upload-icon" src="icons/upload.svg">
+        <img class="apps-icon" src="icons/youtube-apps.svg">
+        <div class="notifications-icon">
+          <img class="bell-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+        </div>
+        
+        <img class="profile-pic" src="channel-pictures/my-channel.jpg">
+      </div>
+      
+    </header>
+
+
+    <nav class="side-bar">
+
+      <div class="blank"> </div>
+      <div class="nav-link-active">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="nav-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="nav-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+
+      <hr>
+
+      <div class="nav-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+      <div class="nav-link">
+        <img src="icons/History.png">
+        <div>History</div>
+      </div>
+      <div class="nav-link">
+        <img class="none" src="icons/video.png">
+        <div class="none">Your Videos</div>
+      </div>
+      <div class="nav-link">
+        <img  class="none" src="icons/watchlater.png">
+        <div class="none">Watch Later</div>
+      </div>
+      <div class="nav-link">
+        <img class="none" src="icons/like.png">
+        <div class="none">Liked Videos</div>
+      </div>
+
+    </nav>
+
+
+    <main>
+      <section class="video-grid">
+
+        <a href="https://www.youtube.com/watch?v=7MFKy7DJsCY&t=10s" target="_blank" class="video-preview">
+          <div class="thumbnail-raw">
+            <img class="thumbnail" src="thumbnails/NationalGeo_s.webp">
+              <div class="video-time">44:25</div>
+          </div>
+      
+
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel-pictures/national geo.jpg">
+            </div>
+
+            <div class="video-info">
+              <div>
+                <p class="video-title">
+                  Lost World of the Maya (Full Episode) | National Geographic
+                </p>
+              </div>
+
+              <div>
+                <p class="video-author">
+                  National Geographic
+                </p>  
+              </div>
+        
+              <div>
+                <p class="video-stats">
+                20M views &#183; 1 year ago
+                </p>
+              </div>
+            </div>
+          </div> 
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=9FqwhW0B3tY" target="_blank" class="video-preview">
+          <div class="thumbnail-raw">
+            <img class="thumbnail" src="thumbnails/netflix_s.webp">
+              <div class="video-time">48:32</div>
+          </div>
+      
+
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel-pictures/netflix.jpg">
+            </div>
+
+            <div class="video-info">
+              <div>
+                <p class="video-title">
+                  Our Planet | High Seas | FULL EPISODE | Netflix
+                </p>
+              </div>
+
+              <div>
+                <p class="video-author">
+                Netflix
+                </p>  
+              </div>
+        
+              <div>
+                <p class="video-stats">
+                22M views &#183; 2 years ago
+                </p>
+              </div>
+            </div>
+          </div> 
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=21824s" target="_blank" class="video-preview">
+          <div class="thumbnail-raw">
+            <img class="thumbnail" src="thumbnails/htmlcss.webp">
+              <div class="video-time">6:31:24</div>
+          </div>
+      
+
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel-pictures/htmlcss.jpg">
+            </div>
+
+            <div class="video-info">
+              <div>
+                <p class="video-title">
+                  HTML & CSS Full Course - Beginner to Pro (2022)
+                </p>
+              </div>
+
+              <div>
+                <p class="video-author">
+                SuperSimpleDev                
+                </p>  
+              </div>
+        
+              <div>
+                <p class="video-stats">
+                486K views &#183; 3 months ago
+                </p>
+              </div>
+            </div>
+          </div> 
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=MIUjR27DOfY" target="_blank" class="video-preview">
+          <div class="thumbnail-raw">
+            <img class="thumbnail" src="thumbnails/levino_s.webp">
+              <div class="video-time">21:02</div>
+          </div>
+      
+
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel-pictures/levinho.jpg">
+            </div>
+
+            <div class="video-info">
+              <div>
+                <p class="video-title">
+                  31 Avalanche crazy kills 😱
+                </p>
+              </div>
+
+              <div>
+                <p class="video-author">
+                Levinho
+                </p>  
+              </div>
+        
+              <div>
+                <p class="video-stats">
+                564K views &#183; 4 months ago
+                </p>
+              </div>
+            </div>
+          </div> 
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=ipMwrcvukpU&t=15s" target="_blank" class="video-preview">
+          <div class="thumbnail-raw">
+            <img class="thumbnail" src="thumbnails/whatif.webp">
+              <div class="video-time">7:02</div>
+          </div>
+      
+
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel-pictures/whatif.jpg">
+            </div>
+
+            <div class="video-info">
+              <div>
+                <p class="video-title">
+                What If You Met a Time Traveler?
+                </p>
+              </div>
+
+              <div>
+                <p class="video-author">
+                What If
+                </p>  
+              </div>
+        
+              <div>
+                <p class="video-stats">
+                5.1M views &#183; 2 years ago
+                </p>
+              </div>
+            </div>
+          </div> 
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=eIOAtcuK8bU&t=10s" target="_blank" class="video-preview">
+          <div class="thumbnail-raw">
+            <img class="thumbnail" src="thumbnails/techrifle_s.webp">
+              <div class="video-time">20:40</div>
+          </div>
+      
+
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel-pictures/techrifle.jpg">
+            </div>
+
+            <div class="video-info">
+              <div>
+                <p class="video-title">
+                Make Windows 11 Look Like macOS
+                </p>
+              </div>
+
+              <div>
+                <p class="video-author">
+                Tech Rifle
+                </p>  
+              </div>
+        
+              <div>
+                <p class="video-stats">
+                2M views &#183; 6 months ago
+                </p>
+              </div>
+            </div>
+          </div> 
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=k6vUapJSi-k" target="_blank" class="video-preview">
+          <div class="thumbnail-raw">
+            <img class="thumbnail" src="thumbnails/cr7_s.webp">
+              <div class="video-time">4:11</div>
+          </div>
+      
+
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel-pictures/cr7.jpg">
+            </div>
+
+            <div class="video-info">
+              <div>
+                <p class="video-title">
+                Cristiano Ronaldo 2022 • Fearless - Skills & Goals | HD
+                </p>
+              </div>
+
+              <div>
+                <p class="video-author">
+                CR7HD
+                </p>  
+              </div>
+        
+              <div>
+                <p class="video-stats">
+                103K views &#183; 3 months ago
+                </p>
+              </div>
+            </div>
+          </div> 
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=QgjkjsqAzvo" target="_blank" class="video-preview">
+          <div class="thumbnail-raw">
+            <img class="thumbnail" src="thumbnails/engwithlucy.webp">
+              <div class="video-time">17:55</div>
+          </div>
+      
+
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel-pictures/engwithlucy.jpg">
+            </div>
+
+            <div class="video-info">
+              <div>
+                <p class="video-title">
+                SELF INTRODUCTION | How to Introduce Yourself in English | Tell Me About Yourself Interview Answer
+                </p>
+              </div>
+
+              <div>
+                <p class="video-author">
+                English with Lucy
+                </p>  
+              </div>
+        
+              <div>
+                <p class="video-stats">
+                12M views &#183; 2 years ago
+                </p>
+              </div>
+            </div>
+          </div> 
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=BYUy1yvjHxE" target="_blank" class="video-preview">
+          <div class="thumbnail-raw">
+            <img class="thumbnail" src="thumbnails/google.webp">
+              <div class="video-time">8:52</div>
+          </div>
+      
+
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel-pictures/google.jpg">
+            </div>
+
+            <div class="video-info">
+              <div>
+                <p class="video-title">
+                Create Your Resume for Google: Tips and Advice
+                </p>
+              </div>
+
+              <div>
+                <p class="video-author">
+                Life at Google
+                </p>  
+              </div>
+        
+              <div>
+                <p class="video-stats">
+                995K views &#183; 2 years ago
+                </p>
+              </div>
+            </div>
+          </div> 
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=UCvtDJexUE8" target="_blank" class="video-preview">
+          <div class="thumbnail-raw">
+            <img class="thumbnail" src="thumbnails/karikk.webp">
+              <div class="video-time">24:39</div>
+          </div>
+      
+
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel-pictures/karikku.jpg">
+            </div>
+
+            <div class="video-info">
+              <div>
+                <p class="video-title">
+                Smile Please! | Comedy | Karikku
+                </p>
+              </div>
+
+              <div>
+                <p class="video-author">
+                Karikku
+                </p>  
+              </div>
+        
+              <div>
+                <p class="video-stats">
+                24M views &#183; 1 year ago
+                </p>
+              </div>
+            </div>
+          </div> 
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=otcZMrWQKSE" target="_blank" class="video-preview">
+          <div class="thumbnail-raw">
+            <img class="thumbnail" src="thumbnails/mrwarehouse.webp">
+              <div class="video-time">12:22</div>
+          </div>
+      
+
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel-pictures/mrwarehouse.jpg">
+            </div>
+
+            <div class="video-info">
+              <div>
+                <p class="video-title">
+                Is Sony finally better than Samsung?
+                </p>
+              </div>
+
+              <div>
+                <p class="video-author">
+                Mrwhosetheboss
+                </p>  
+              </div>
+        
+              <div>
+                <p class="video-stats">
+                2.3M views &#183; 6 days ago
+                </p>
+              </div>
+            </div>
+          </div> 
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=FeUA-0G1p5k" target="_blank" class="video-preview">
+          <div class="thumbnail-raw">
+            <img class="thumbnail" src="thumbnails/tesla.webp">
+              <div class="video-time">13:00</div>
+          </div>
+      
+
+          <div class="video-info-grid">
+            <div class="channel-pic">
+              <img class="profile-pic" src="channel-pictures/tesla.jpg">
+            </div>
+
+            <div class="video-info">
+              <div>
+                <p class="video-title">
+                The Tragic Story of Nikola Tesla
+                </p>
+              </div>
+
+              <div>
+                <p class="video-author">
+                Newsthink
+                </p>  
+              </div>
+        
+              <div>
+                <p class="video-stats">
+                3.4M views &#183; 1 year ago
+                </p>
+              </div>
+            </div>
+          </div> 
+        </a>
+      
+      </section>
+    </main> 
+  </body>
+</html>

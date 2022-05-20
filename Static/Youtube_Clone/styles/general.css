@@ -1,0 +1,23 @@
+  p{
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+  }
+  body{
+    margin: 0;
+    /*overflow: hidden;*/
+    font-family: Roboto, Arial;
+    padding-top: 98px;
+    padding-left: 332px;
+    padding-right: 34px;
+    background-color: rgb(249, 249, 249);
+    height: 1100px;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  a:active{
+    background-color: rgb(236, 236, 236);
+    transition: background-color 0.15s;
+  }
